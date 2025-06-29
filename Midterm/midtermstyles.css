@@ -1,0 +1,326 @@
+/*Alize Jackson June 25th 2025*/
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+#body {margin-left: auto;
+    margin-right: auto;
+}
+.center { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+body { background: linear-gradient(180deg, #d74179 0%, #fabeda 50%, #fcf9e6 100%);
+    line-height: 2.5;
+    background-color: #d74179;
+    color: #000000;    
+}
+header {background-color: #D74179;
+    color: white;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2rem 2rem;
+    background: url(200px-765logo.png) no-repeat 500px center, url(200px-765logo.png) no-repeat 1250px center;
+    background-size: 150px;
+}
+nav {background-color: #e777a9;
+    padding: 1.5rem 0;
+}
+nav ul {list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+nav a { text-decoration: none;
+    font-size: 1.5rem;
+    color: #000000;
+}
+nav a:hover {text-decoration: underline;
+    background-color: #faf2cd;
+    color:#000;
+}
+a:visited {color: #7d4294;
+    background-color: #fff;
+}
+.large-pipe:after {
+    content: '|';
+    font-size: 1.5em;
+    margin: 30px;
+}
+#main-img-border {
+    border: inset;
+    border-radius: 10px;
+    border-color: #e777a9;
+}
+body h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+dl {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border: outset;
+    border-radius: 5px;
+    border-color: #FABEDA;
+    background-color: #FAF2CD;
+}
+dt {
+    font-weight: 1000;
+    font-size: 20px
+}
+dd {
+    font-size: 15px;   
+}
+.aboutme {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+}
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+section h3 {
+    font-size: 25px;
+}
+div {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#haruka {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #E33830;
+    color: #000;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#chihaya {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #2743D2;
+    color: #fff;
+    border: solid 3px #000;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#yukiho {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #D3E5E5;
+    color: #000;
+    border: solid 3px #000;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#yayoi {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #FD8614;
+    color: #000;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#ritsuko {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #00B665;
+    color: #000;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#makoto {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #515254;
+    color: #fff;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#iori {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #FA77C5;
+    color: #000;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#miki {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #A9D053;
+    color: #000;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#hibiki {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #11B4B8;
+    color: #000;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#takane {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #A10268;
+    color: #fff;
+    border: solid 3px #000;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#ami {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #FFE43F;
+    color: #000;
+    border: solid 3px #000;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#mami {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #FFE43F;
+    color: #000;
+    border: solid 3px #000;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#azusa {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #8E3BBE;
+    color: #fff;
+    border: solid 3px #000;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+ol {
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
