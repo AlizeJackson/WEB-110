@@ -1,0 +1,125 @@
+/*Alize Jackson FINAL PROJECT 2025 WEB 110 July 16th 2025*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body /*Futuristic font and colors for website*/ {
+    font-family: Quantico;
+    line-height: 1.9;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, #858AE3 20%, #8EB5F0 70%, #93CAF6 100%);
+}
+.wrappermain /*Wrapper for home page.*/ {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25em;
+    padding: 1.875em;
+    column-gap: 1.5rem;
+}
+.top10listwrappermain /* Wrapper for the top 10 list.*/ {
+    display: grid;
+    align-content: center;
+    padding: 1.875em;
+    column-gap: 1.875em;
+    row-gap: 1.875em;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.contactpagewrappermain /*Wrapper for contact page.*/ {
+    display: grid;
+    padding: 1.875em;
+    column-gap: 1.875em;
+    row-gap: 1.875em;
+    grid-template-columns: 18.75em 18.75em;
+    grid-template-rows: 18.75em 22em 18.75em;
+}
+.orderlist /*Grid layout for the ordered list on the top 10 list page.*/ {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #7364D2;
+    text-align: center;
+}
+.formsection /* Grid layout for form.*/ {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    background-color: #000;
+    color: #fff;
+    border: solid 2px white;
+}
+ol {
+    text-align: left;
+    padding-left: 1.25em;
+}
+section /*Layout for sections.*/ {
+    padding: 2rem 2rem;
+    border: solid 2px #000;
+    border-radius: 4px;
+    background-color: #858ae3;
+    color: #000;
+}
+#main-img-border /*Home Page Image*/ {
+    border: ridge 5px #000;
+    border-radius: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 900px;
+}
+.img /*Image configurations for top 10 list page.*/ {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 30px 30px 30px auto;
+}
+.emailicon {
+    padding-left: 20px;
+    height: 200px;
+    width: 200px;
+}
+.pimg /*home page image footnote for credit.*/ {
+    padding: 1rem 1rem;
+}
+h1 {
+    font-size: 4em;
+    color: #97DFFC;
+    background-color: #613DC1;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+nav {
+    padding: 1.5rem 0;
+    background-color: black;
+    color: #97DFFC;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: x-large;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #97dffc;
+}
+nav a:hover {text-decoration: underline;
+    background-color: #7364D2;
+    color:#000;
+}
+a:visited {color: #97DFFC;
+    background-color: #fff;
+}
+footer {
+    text-align: center;
+    padding: 1rem 1rem;
+    background-color: #000;
+    color: #97dffc;
+}

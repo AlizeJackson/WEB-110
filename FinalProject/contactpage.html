@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--Alize Jackson Final Project Contact Page July 16th 2025-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Top Ten Web Development Tools for Beginners</title>
+        <link rel="stylesheet" href="finalprojectstyles.css">
+    <style>
+        form {
+            padding: 10px;
+        }
+        label {
+            float: left;
+            clear: left;
+            display: block;
+            height: 1.875em;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        input {
+            display: flex;
+            flex-direction: row;
+            margin-top: 8px;
+        }
+        textarea {
+            display: block;
+            margin-top: 2px;
+        }
+        fieldset {
+            border: groove 2px #97DFFC;
+            padding: 10px;
+        }
+        .checkbox {
+            
+        }
+        legend {
+            font-weight: bold;
+            color: #97DFFC;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Contact and Suggestions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="top10list.html">Top 10 List</a></li>
+                <li><a href="contactpage.html">Contact Page</a></li>
+            </ul>
+        </nav>
+    <main class="contactpagewrappermain">
+        <section>
+            <h3>Contact Me</h3>
+            <p>If you have any suggestions of web development tools, any advice to give to beginner web developers,
+            or would just like to leave a comment, please email me <a href="mailto:ajack124@stumail.jccc.edu">here!</a></p>
+        </section>
+        <section>
+            <h3>Credit Page</h3>   
+            <p><a href="https://brandlogo.org/">&copy;Brand Logo</a></p>
+            <p><a href="https://www.freepik.com/free-photos-vectors/web-development">&copy;Freepix</a></p>
+            <p><a href="https://www.hostinger.com/tutorials/web-development-tools">&copy;Hostringer</a></p>
+            <p><a href="https://marvelapp.com/blog/marvel-logo-insight-process/">&copy;Marvel App</a></p>
+            <p><a href="https://sass-lang.com">&copy;Sass</a></p>
+            <p><a href="https://www.sublimetext.com/">&copy;Sublime Text</a></p>
+            <p><a href="https://www.wikipedia.org/">&copy;Wikipedia</a></p>
+            <p><a href="https://commons.wikimedia.org/wiki/Main_Page">&copy;Wikimedia Commons</a></p>
+        </section>
+        <section>
+            <img class="emailicon" src="mail-1454731_640.png" alt="EmailIcon">
+            <h4 style="text-align: center;">Credit to &copy; <a href="https://pixabay.com/illustrations/mail-message-email-send-message-1454731/">Pixabay</a>
+            for image.</h4>
+        </section>
+        <section class="formsection">
+            <h3>Contact &amp; Suggestions</h3>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <fieldset>
+                <legend>Name and Infomation</legend>
+                <label for="myName">Name:</label>
+                <input type="text" name="myName" required id="myName">
+                <label for="myEmail">E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail">
+                <label for="myDate">Today's Date:</label>
+                <input type="date" name="myDate" id="myDate">
+            </fieldset>
+            <fieldset>
+                <legend>Question One</legend>
+                Choose level of web development skill:<br>
+                <input type="radio" name="Skill" id="Beginner" value="Beginner">Beginner<br>
+                <input type="radio" name="Skill" id="Advanced" value="Advanced">Advanced<br>
+                <input type="radio" name="Skill" id="Expert" value="Expert">Expert<br>
+            </fieldset>
+            <fieldset>
+                <legend>Question Two</legend>
+                Have you tried any of the web development tools below?<br>
+                <input type="checkbox" name="Github" id="Github" value="yes">Github<br>
+                <input type="checkbox" name="Chrome" id="ChromeDeveloperTools" value="yes">Chrome Developer Tools<br>
+                <input type="checkbox" name="Sublime" id="Sublime" value="yes">Sublime Text<br>
+                <input type="checkbox" name="Marvel" id="Marvel" value="yes">Marvel<br>
+                <input type="checkbox" name="Visual" id="VisualStudioCode" value="yes">Visual Studio Code<br>
+                <input type="checkbox" name="NPM" id="NPM" value="yes">Node Package Manager<br>
+                <input type="checkbox" name="Sass" id="Sass" value="yes">Sass<br>
+                <input type="checkbox" name="Boot" id="Bootstrap" value="yes">Bootstrap<br>
+                <input type="checkbox" name="Grunt" id="Grunt" value="yes">Grunt<br>
+                <input type="checkbox" name="Ruby" id="RubyonRails" value="yes">Ruby on Rails<br>
+            </fieldset>
+            <fieldset>
+                <legend>Question Three</legend>
+                From 1-10, what would you rate the web development tool you selected above? If multiple, choose your
+                favorite.<br>
+                <select size="1" name="Rating" id="ratingscore">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    <option value="six">6</option>
+                    <option value="seven">7</option>
+                    <option value="eight">8</option>
+                    <option value="nine">9</option>
+                    <option value="ten">10</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Any suggestions?</legend>
+                <textarea name="Suggestions" id="Sug" cols="50" rows="3">Enter comments/suggestions here.</textarea>
+            </fieldset>
+                <input type="submit" value="Send!">
+                <input type="reset">
+            </form>
+        </section>
+    </main>
+    <footer> &copy; Alize Jackson WEB 110 FINAL PROJECT 2025</footer>
+    </body>
+</html>
